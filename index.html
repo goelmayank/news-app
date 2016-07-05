@@ -17,7 +17,7 @@
         <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 
-<body data-spy="scroll" data-target="#navigation" data-offset="120">
+<body>
     <div class="wrapper">
         <div class="card radius shadowDepth1">
             <div class="card__image border-tlr-radius">
@@ -44,9 +44,22 @@
             <div class="card__action">
                 <div class="card__author">
                     <img src="http://lorempixel.com/40/40/sports/" alt="user">
-                    <button class="main-button fa fa-heart"></button>
+                    <div class="button-wrapper">
+                        <div class="layer"></div>
+                        <button class="main-button fa fa-info">
+                            <div class="ripple"></div>
+                        </button>
+                    </div>
                     <div class="card__author-content">
                         By <a href="#">Author</a>
+                    </div>
+                </div>
+                <div class="layered-content">
+                    <button class="close-button fa fa-times"></button>
+                    <div class="content">
+                        <img src="http://s3-us-west-2.amazonaws.com/s.cdpn.io/111167/profile/profile-512_4.jpg" alt="Balapa">
+                        <p>Crafted by balapa.</p>
+                        <p>See also my <a href="http://codepen.io/balapa/details/gbQbXR/">other pen</a></p>
                     </div>
                 </div>
             </div>
@@ -55,4 +68,5 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
